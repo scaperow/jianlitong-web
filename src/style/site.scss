@@ -1,0 +1,80 @@
+@import './variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+a,
+p {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 14px;
+
+  &:visited {
+    color: inherit;
+  }
+
+  &.button {
+    border-radius: 10px;
+    transition: background 0.3s;
+
+    &:hover {
+      background: #eee8;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+*::selection {
+  background: $gold;
+  color: $black;
+
+  
+}
+
+*:focus { outline: none; } 
+
+
+[aria-hidden="true"] {
+  display: none;
+}
+
+[aria-hidden="false"] {
+  display: block;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+
+}
+
+.pull-right::after {
+  clear: both;
+}
+
+.pull-left::after {
+  clear: both;
+}

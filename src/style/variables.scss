@@ -1,0 +1,34 @@
+
+
+@import './element-variables.scss';
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+/* 改变 icon 字体路径变量，必需 */
+
+
+$custom-easing-in: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+$custom-easing-out: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+// Import sizing
+$small: 320px;
+$medium: 768px;
+$large: 1220px;
+
+// Import colors
+$sky: #b5dbe4;
+$teal: #3eaab6;
+$blue: #488a96;
+$white: #f6f5fb;
+$gold: #f2e4c1;
+$black: #4d4b50;
+$auxiliary-text-color:#bbb;
+$primary-text-color:#333;
+$summary-text-color:#666;
+
+
+$shadow: 0 4px 16px rgba(0, 0, 0, 0.2),
+0 4px 6px -3px rgba(0, 0, 0, 0.2);
+$text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+
+
+
